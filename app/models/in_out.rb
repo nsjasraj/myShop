@@ -1,4 +1,4 @@
 class InOut < ApplicationRecord
-  belongs_to :Brand
-  belongs_to :Model
+  belongs_to :brand
+  belongs_to :model
 end

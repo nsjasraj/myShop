@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_19_133520) do
+ActiveRecord::Schema.define(version: 2019_08_19_160121) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -45,14 +45,14 @@ ActiveRecord::Schema.define(version: 2019_08_19_133520) do
   end
 
   create_table "in_outs", force: :cascade do |t|
-    t.integer "Brand_id"
-    t.integer "Model_id"
+    t.integer "brand_id"
+    t.integer "model_id"
     t.integer "in"
     t.integer "out"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["Brand_id"], name: "index_in_outs_on_Brand_id"
-    t.index ["Model_id"], name: "index_in_outs_on_Model_id"
+    t.index ["brand_id"], name: "index_in_outs_on_brand_id"
+    t.index ["model_id"], name: "index_in_outs_on_model_id"
   end
 
   create_table "models", force: :cascade do |t|
