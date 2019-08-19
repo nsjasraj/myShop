@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Brand: one
+  Model: one
+  in: 1
+  out: 1
+
+two:
+  Brand: two
+  Model: two
+  in: 1
+  out: 1
